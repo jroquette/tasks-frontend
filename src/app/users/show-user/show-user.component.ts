@@ -17,7 +17,7 @@ export class ShowUserComponent implements OnInit {
   UserTaskList:any=[];
   ModalTitle:string;
   ActivateAddEditUserComp:boolean=false;
-  ActivateShowIssuesComp:boolean=true;
+  ActivateShowIssuesComp:boolean=false;
   user:any;
 
   ngOnInit(): void {
